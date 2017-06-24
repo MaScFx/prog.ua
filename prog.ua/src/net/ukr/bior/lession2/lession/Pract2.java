@@ -1,9 +1,9 @@
-package net.ukr.bior.lession2;
+package net.ukr.bior.lession2.lession;
 
 /**
  * Created by Igor on 24.06.2017.
  */
-public class pr2 {
+public class Pract2 {
     public static void main(String[] args) {
         for (int i = 0; i <=10 ; i++) {
             int sum=0;

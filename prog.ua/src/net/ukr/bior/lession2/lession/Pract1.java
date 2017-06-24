@@ -1,9 +1,9 @@
-package net.ukr.bior.lession2;
+package net.ukr.bior.lession2.lession;
 
 /**
  * Created by Igor on 24.06.2017.
  */
-public class pr1 {
+public class Pract1 {
     public static void main(String[] args) {
         //Полная форма
         int ax = 7;

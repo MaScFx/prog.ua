@@ -1,4 +1,4 @@
-package net.ukr.bior.lession2;
+package net.ukr.bior.lession2.lession;
 
 import java.util.ArrayList;
 import java.util.Scanner;

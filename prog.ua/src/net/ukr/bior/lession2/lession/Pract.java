@@ -1,9 +1,9 @@
-package net.ukr.bior.lession2;
+package net.ukr.bior.lession2.lession;
 
 /**
  * Created by Igor on 24.06.2017.
  */
-public class pr {
+public class Pract {
     public static void main(String[] args) {
         int barrelVolume = 200;
         int waterLevel = 0;
