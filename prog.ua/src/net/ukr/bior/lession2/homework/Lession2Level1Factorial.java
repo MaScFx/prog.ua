@@ -10,10 +10,10 @@ public class Lession2Level1Factorial {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter factorial");
         int f= sc.nextInt();
-        System.out.println(factorial(f));
+        System.out.println(ba(f));
 
     }
-    static int factorial(int f){
-        return f==1 ? 1:f*factorial(f-1);
+    static int ba(int f){
+        return f==1 ? 1:f*ba(f-1);
     }
 }
