@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Lession1Level1House {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        double numberAppartment; //double необходим для строки 23 и 26
+        double  numberAppartment; //double необходим для строки 23 и 26
         while (true) {
             System.out.println("Input number of Appartment");
              numberAppartment = sc.nextInt();

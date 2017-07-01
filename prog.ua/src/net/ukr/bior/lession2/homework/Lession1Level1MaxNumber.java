@@ -17,5 +17,6 @@ public class Lession1Level1MaxNumber {
         int max = arr.stream().max(Integer::compareTo).get();
         System.out.println(max);
 
+
     }
 }
