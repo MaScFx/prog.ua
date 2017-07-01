@@ -5,8 +5,10 @@ package net.ukr.bior.Lesson3.homework;
  */
 public class L2Lvl1String {
     public static void main(String[] args) {
+        System.out.println(stringCoung("azaza asasa ff dd"));
     }
     public static int stringCoung(String text){
-        return text.length();
+        String[] t= text.split(" ");
+        return t.length;
     }
 }
