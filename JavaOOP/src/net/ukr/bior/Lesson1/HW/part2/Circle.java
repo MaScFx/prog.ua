@@ -4,6 +4,14 @@ public class Circle extends Shape {
     private Point a;
     private double radius;
 
+    public Circle(Point a, double radius) {
+        this.a = a;
+        this.radius = radius;
+    }
+
+    public Circle() {
+    }
+
     @Override
     double getPerimetr() {
         return 2 * Math.PI * radius;
@@ -12,14 +20,6 @@ public class Circle extends Shape {
     @Override
     double getArea() {
         return Math.PI * radius * radius;
-    }
-
-    public Circle() {
-    }
-
-    public Circle(Point a, double radius) {
-        this.a = a;
-        this.radius = radius;
     }
 
     public Point getA() {

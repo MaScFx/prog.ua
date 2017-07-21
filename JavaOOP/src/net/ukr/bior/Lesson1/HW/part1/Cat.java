@@ -9,8 +9,7 @@ public class Cat {
     private String ration;
     private boolean sex;
 
-    public String meow() {
-        return "Meow!!!";
+    public Cat() {
     }
 
     public Cat(String name, int age, String ration, boolean sex) {
@@ -25,8 +24,8 @@ public class Cat {
         return "Cat [Name = " + name + ", sex = " + (sex ? "male, " : "female, ") + age + " years old and ration is " + ration + "]";
     }
 
-
-    public Cat() {
+    public String meow() {
+        return "Meow!!!";
     }
 
     public String getName() {

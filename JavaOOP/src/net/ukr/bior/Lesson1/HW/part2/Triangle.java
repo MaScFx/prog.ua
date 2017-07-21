@@ -5,6 +5,15 @@ public class Triangle extends Shape {
     private Point b;
     private Point c;
 
+    public Triangle(Point a, Point b, Point c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
+    public Triangle() {
+    }
+
     @Override
     double getPerimetr() {
         return lengthBetweenPoints(a, b) + lengthBetweenPoints(b, c) + lengthBetweenPoints(a, c);
@@ -13,20 +22,10 @@ public class Triangle extends Shape {
     @Override
     double getArea() {
         return Math.abs(0.5 * ((a.getX() - c.getX()) * (b.getY() - c.getY()) - (b.getX() - c.getX()) * (a.getY() - c.getY())));
-
-    }
-
-    public Triangle(Point a, Point b, Point c) {
-        this.a = a;
-        this.b = b;
-        this.c = c;
     }
 
     private double lengthBetweenPoints(Point a, Point b) {
-        return  Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
-    }
-
-    public Triangle() {
+        return Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
     }
 
     public Point getA() {
