@@ -9,12 +9,7 @@ public class Cat {
     private String ration;
     private boolean sex;
 
-    @Override
-    public String toString() {
-        return "Cat [Name = " + name + ", sex = " + (sex ? "male, " : "female, ") + age + " years old and ration is " + ration + "]";
-    }
-
-    public String meow(){
+    public String meow() {
         return "Meow!!!";
     }
 
@@ -24,6 +19,12 @@ public class Cat {
         this.ration = ration;
         this.sex = sex;
     }
+
+    @Override
+    public String toString() {
+        return "Cat [Name = " + name + ", sex = " + (sex ? "male, " : "female, ") + age + " years old and ration is " + ration + "]";
+    }
+
 
     public Cat() {
     }

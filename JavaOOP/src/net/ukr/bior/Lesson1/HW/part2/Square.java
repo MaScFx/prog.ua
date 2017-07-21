@@ -10,6 +10,7 @@ public class Square extends Shape {
     private Point d;
 
 
+
     @Override
     double getPerimetr() {
         return lengthBetweenPoints(a, b) > lengthBetweenPoints(a, c) ? lengthBetweenPoints(a, c) * 4 : lengthBetweenPoints(a, b) * 4;

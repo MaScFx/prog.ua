@@ -1,20 +1,18 @@
 package net.ukr.bior.Lesson1.HW.part2;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
     private Point a;
     private double radius;
 
     @Override
     double getPerimetr() {
-        return 2*Math.PI*radius;
+        return 2 * Math.PI * radius;
     }
 
     @Override
     double getArea() {
-        return Math.PI*radius*radius;
+        return Math.PI * radius * radius;
     }
-
-
 
     public Circle() {
     }
