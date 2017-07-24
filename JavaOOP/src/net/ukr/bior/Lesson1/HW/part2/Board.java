@@ -13,7 +13,7 @@ public class Board {
 
     public void add(Shape shape, int part){
         if (part < board.length && part >= 0) {
-            board[part]=shape;
+            board[part]=shape;       //!!!
         } else {
             System.out.println("Incorrect part");
         }
