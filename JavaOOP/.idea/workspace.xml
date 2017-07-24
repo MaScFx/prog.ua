@@ -44,12 +44,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson2/HW/L1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/net.ukr.bior.Lesson2.HW.L1" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/net.ukr.bior.Lesson2.HW.L1">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>net.ukr.bior.Lesson2.HW.L1</OriginalElement>
+              <nodes>
+                <node x="34.0" y="0.0">net.ukr.bior.Lesson2.HW.L1.Human</node>
+                <node x="0.0" y="597.0">net.ukr.bior.Lesson2.HW.L1.OutOfBoundGroupExeption</node>
+                <node x="241.0" y="597.0">net.ukr.bior.Lesson2.HW.L1.Main</node>
+                <node x="0.0" y="301.0">net.ukr.bior.Lesson2.HW.L1.Student</node>
+                <node x="400.0" y="0.0">net.ukr.bior.Lesson2.HW.L1.Group</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="net.ukr.bior.Lesson2.HW.L1.Student" target="net.ukr.bior.Lesson2.HW.L1.Human">
+                  <point x="0.0" y="-125.5" />
+                  <point x="0.0" y="125.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="478.0" y="336.0" />
+              <SelectedNodes>
+                <node>net.ukr.bior.Lesson2.HW.L1.Student</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -414,7 +448,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="SearchEverywhereHistoryKey" value="uml&#9;ACTION&#9;ShowUmlDiagram" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/ukr/bior/Lesson2/HW/L2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectJava\JavaOOP\src\net\ukr\bior\Lesson2\HW\L1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -970,12 +1009,12 @@
       <workItem from="1500837718541" duration="2591000" />
       <workItem from="1500870989026" duration="11000" />
       <workItem from="1500888502656" duration="3274000" />
-      <workItem from="1500921572572" duration="1780000" />
+      <workItem from="1500921572572" duration="2757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63220000" />
+    <option name="totallyTimeSpent" value="64197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1030,20 +1069,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson1/Lesson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson1/Lesson/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson1/HW/part1/L1Lvl1Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1395,6 +1420,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,40 +1468,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson2/HW/L1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson2/HW/L1/L1.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>net.ukr.bior.Lesson2.HW.L1</OriginalElement>
+          <nodes>
+            <node x="34.0" y="0.0">net.ukr.bior.Lesson2.HW.L1.Human</node>
+            <node x="0.0" y="597.0">net.ukr.bior.Lesson2.HW.L1.OutOfBoundGroupExeption</node>
+            <node x="241.0" y="597.0">net.ukr.bior.Lesson2.HW.L1.Main</node>
+            <node x="0.0" y="301.0">net.ukr.bior.Lesson2.HW.L1.Student</node>
+            <node x="400.0" y="0.0">net.ukr.bior.Lesson2.HW.L1.Group</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="net.ukr.bior.Lesson2.HW.L1.Student" target="net.ukr.bior.Lesson2.HW.L1.Human">
+              <point x="0.0" y="-125.5" />
+              <point x="0.0" y="125.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="495.0" y="313.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson2/HW/L1/diagram.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="uml://JAVA/net.ukr.bior.Lesson2.HW.L1">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>net.ukr.bior.Lesson2.HW.L1</OriginalElement>
           <nodes>
-            <node x="0.5" y="0.0">net.ukr.bior.Lesson2.HW.L1.Human</node>
-            <node x="0.0" y="155.0">net.ukr.bior.Lesson2.HW.L1.OutOfBoundGroupExeption</node>
-            <node x="0.0" y="230.0">net.ukr.bior.Lesson2.HW.L1.Main</node>
-            <node x="0.0" y="80.0">net.ukr.bior.Lesson2.HW.L1.Student</node>
-            <node x="241.0" y="155.0">net.ukr.bior.Lesson2.HW.L1.Group</node>
+            <node x="34.0" y="0.0">net.ukr.bior.Lesson2.HW.L1.Human</node>
+            <node x="0.0" y="597.0">net.ukr.bior.Lesson2.HW.L1.OutOfBoundGroupExeption</node>
+            <node x="241.0" y="597.0">net.ukr.bior.Lesson2.HW.L1.Main</node>
+            <node x="0.0" y="301.0">net.ukr.bior.Lesson2.HW.L1.Student</node>
+            <node x="400.0" y="0.0">net.ukr.bior.Lesson2.HW.L1.Group</node>
           </nodes>
           <notes />
           <edges>
             <edge source="net.ukr.bior.Lesson2.HW.L1.Student" target="net.ukr.bior.Lesson2.HW.L1.Human">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
+              <point x="0.0" y="-125.5" />
+              <point x="0.0" y="125.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-80.0" y="-7.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="478.0" y="336.0" />
           <SelectedNodes>
             <node>net.ukr.bior.Lesson2.HW.L1.Student</node>
           </SelectedNodes>
-          <Categories />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ukr/bior/Lesson2/HW/L1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
