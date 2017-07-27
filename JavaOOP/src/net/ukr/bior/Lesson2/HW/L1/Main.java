@@ -25,10 +25,22 @@ public class Main {
             group.addToGoroup(student8);
             group.addToGoroup(student9);
             group.addToGoroup(student10);
-            group.addToGoroup(student11);  //не лезет
+//            group.addToGoroup(student11);  //не лезет
         } catch (OutOfBoundGroupExeption e){
             System.err.println(e);
         }
+        System.out.println(group.toString());
+
+        System.out.println("________");
+        group.delFromGroup(student1);
+        group.delFromGroup(student2);
+        group.delFromGroup(student4);
+        try {
+            System.out.println(group.findStudent("Ivanov").toString());
+        } catch (NullPointerException e){
+            e.printStackTrace();
+        }
+
         System.out.println(group.toString());
 
     }

@@ -35,6 +35,7 @@ public class Student extends Human {
         return "This student learn in "+group+ " group, and have average rating - "+avrRating;
     }
 
+
     public String getGroup() {
         return group;
     }
