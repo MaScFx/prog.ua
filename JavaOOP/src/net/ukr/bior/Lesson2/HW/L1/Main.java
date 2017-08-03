@@ -1,5 +1,7 @@
 package net.ukr.bior.Lesson2.HW.L1;
 
+import java.io.IOException;
+
 public class Main {
     public static void main(String[] args) {
         Group group = new Group();
@@ -40,6 +42,9 @@ public class Main {
         } catch (NullPointerException e){
             e.printStackTrace();
         }
+
+        group.toFile();
+
 
         System.out.println(group.toString());
 

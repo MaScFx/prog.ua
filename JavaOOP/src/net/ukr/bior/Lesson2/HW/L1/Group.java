@@ -1,5 +1,9 @@
 package net.ukr.bior.Lesson2.HW.L1;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,7 +15,32 @@ public class Group {
     }
 
 
+    public void toFile(){
+        File file = new File("Group.txt");
+        BufferedWriter bufferedWriter = null;
 
+        try {
+            file.createNewFile();
+            bufferedWriter = new BufferedWriter(new FileWriter(file));
+            for (int i = 0; i <gr.length ; i++) {
+                if (gr[i]==null){
+                    continue;
+                }
+                bufferedWriter.write(gr[i].toString());
+                bufferedWriter.newLine();
+            }
+        } catch (IOException e){
+            e.printStackTrace();
+        } finally {
+            try {
+                bufferedWriter.flush();
+                bufferedWriter.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
 
     public void addToGoroup(Student student) throws OutOfBoundGroupExeption
     {

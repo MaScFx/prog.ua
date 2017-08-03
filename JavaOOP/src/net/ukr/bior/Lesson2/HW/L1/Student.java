@@ -1,6 +1,8 @@
 package net.ukr.bior.Lesson2.HW.L1;
 
-public class Student extends Human {
+import java.util.Comparator;
+
+public class Student extends Human implements Comparable<Student>, Comparator{
     private String secondName;
     private String group;
     private double avrRating;
@@ -32,8 +34,9 @@ public class Student extends Human {
 
     @Override
     public String toString() {
-        return "This student learn in "+group+ " group, and have average rating - "+avrRating;
+        return "Name is - "+this.getSecondName()+", this student learn in "+group+ " group, and have average rating - "+avrRating;
     }
+
 
 
     public String getGroup() {
@@ -58,5 +61,16 @@ public class Student extends Human {
 
     public void setSecondName(String secondName) {
         this.secondName = secondName;
+    }
+
+
+    @Override
+    public int compareTo(Student o) {
+        return secondName.compareTo(o.getSecondName());
+    }
+
+    @Override
+    public int compare(Object o1, Object o2) {
+        return 0;
     }
 }
