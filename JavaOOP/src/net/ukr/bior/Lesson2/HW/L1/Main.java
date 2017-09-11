@@ -27,7 +27,7 @@ public class Main {
             group.addToGoroup(student8);
             group.addToGoroup(student9);
             group.addToGoroup(student10);
-//            group.addToGoroup(student11);  //не лезет
+            group.addToGoroup(student11);  //не лезет
         } catch (OutOfBoundGroupExeption e){
             System.err.println(e);
         }

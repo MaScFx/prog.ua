@@ -57,6 +57,7 @@ public class Group {
 
     }
 
+
     public void delFromGroup(Student student){
         for (int i = 0; i < gr.length; i++) {
             if (gr[i]==student){
